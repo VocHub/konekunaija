@@ -104,7 +104,7 @@ app.get("/anime/:title", async (req, res) => {
     >
     <div class="header-right">
 		<a style="margin: 0; padding: 6px;" id="top-search">
-			<input type="text" placeholder="query..." id="input" />
+			<input type="text" placeholder="Search for any anime..." id="input" />
 			<button onclick="outSearch()" id="submitbtn">
 				<i class="fa fa-search" style="width: 30px"></i>
 			</button>
@@ -220,7 +220,7 @@ app.get("/view/:title", async (req, res) => {
     >
     <div class="header-right">
 		<a style="margin: 0; padding: 6px;" id="top-search">
-			<input type="text" placeholder="query..." id="input" />
+			<input type="text" placeholder="Search for any anime..." id="input" />
 			<button onclick="outSearch()" id="submitbtn">
 				<i class="fa fa-search" style="width: 30px"></i>
 			</button>
@@ -309,7 +309,7 @@ app.get("/genres", async (req, res) => {
 		>
 		<div class="header-right">
 			<a style="margin: 0; padding: 6px;" id="top-search">
-				<input type="text" placeholder="query..." id="input" />
+				<input type="text" placeholder="Search for any anime..." id="input" />
 				<button onclick="outSearch('input', 'searchres')" id="submitbtn">
 					<i class="fa fa-search" style="width: 30px"></i>
 				</button>
@@ -388,7 +388,7 @@ app.get("/genre/:genre", async (req, res) => {
 			>
 			<div class="header-right">
 				<a style="margin: 0; padding: 6px;" id="top-search">
-					<input type="text" placeholder="query..." id="input" />
+					<input type="text" placeholder="Search for any anime..." id="input" />
 					<button onclick="outSearch()" id="submitbtn">
 						<i class="fa fa-search" style="width: 30px"></i>
 					</button>
@@ -486,7 +486,7 @@ app.get("/season", async (req, res) => {
 		>
 		<div class="header-right">
 			<a style="margin: 0; padding: 6px;" id="top-search">
-				<input type="text" placeholder="query..." id="input" />
+				<input type="text" placeholder="Search for any anime..." id="input" />
 				<button onclick="outSearch()" id="submitbtn">
 					<i class="fa fa-search" style="width: 30px"></i>
 				</button>
@@ -591,7 +591,7 @@ app.get("/list", async (req, res) => {
 		>
 		<div class="header-right">
 			<a style="margin: 0; padding: 6px;" id="top-search">
-				<input type="text" placeholder="query..." id="input" />
+				<input type="text" placeholder="Search for any anime..." id="input" />
 				<button onclick="outSearch()" id="submitbtn">
 					<i class="fa fa-search" style="width: 30px"></i>
 				</button>

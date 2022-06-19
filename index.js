@@ -204,14 +204,14 @@ app.get("/view/:title", async (req, res) => {
 		<link rel="stylesheet" href="../../../css/header.css" />
 		<link
 			rel="shortcut icon"
-			href="https://hub.koneko.link/cdn/icons/purple.png"
+			href="https://gogocdn.net/cover/dance-dance-danseur.png"
 			type="image/x-icon"
 		/>
 		<meta property="og:title" content="${data.title}" />
 		<meta name="og:description" content="${data.title} Episode ${number} on NekoWatch." />
 		<meta property="og:image" content="${image}" />
 		<meta property="twitter:title" content="${data.title}" />
-		<title>NekoWatch</title>
+		<title>MangaNaija</title>
 	</head>
     <body>
     <div class="header">
@@ -376,15 +376,15 @@ app.get("/genre/:genre", async (req, res) => {
 		<link rel="stylesheet" href="/css/header.css" />
 		<link
 			rel="shortcut icon"
-			href="https://hub.koneko.link/cdn/icons/purple.png"
+			href="https://gogocdn.net/cover/dance-dance-danseur.png"
 			type="image/x-icon"
 		/>
-		<title>NekoWatch</title>
+		<title>MangaNaija</title>
 	</head>
 	<body style="width: 100%; height: 100%">
 		<div class="header">
 			<a href="/" class="logo"
-				>NekoWatch<span style="color: purple">;</span></a
+				>MangaNaija<span style="color: green">;</span></a
 			>
 			<div class="header-right">
 				<a style="margin: 0; padding: 6px;" id="top-search">
@@ -471,15 +471,18 @@ app.get("/season", async (req, res) => {
 	<link rel="stylesheet" href="/css/header.css" />
 	<link
 		rel="shortcut icon"
-		href="https://hub.koneko.link/cdn/icons/purple.png"
+		href="https://gogocdn.net/cover/dance-dance-danseur.png"
 		type="image/x-icon"
 	/>
-	<title>NekoWatch</title>
+	<title>MangaNaija
+
+
+</title>
 </head>
 <body style="width: 100%; height: 100%">
 	<div class="header">
 		<a href="/" class="logo"
-			>NekoWatch<span style="color: purple">;</span></a
+			>MangaNaija<span style="color: green">;</span></a
 		>
 		<div class="header-right">
 			<a style="margin: 0; padding: 6px;" id="top-search">
@@ -560,10 +563,10 @@ app.get("/list", async (req, res) => {
 	<link rel="stylesheet" href="/css/header.css" />
 	<link
 		rel="shortcut icon"
-		href="https://hub.koneko.link/cdn/icons/purple.png"
+		href="https://gogocdn.net/cover/dance-dance-danseur.png"
 		type="image/x-icon"
 	/>
-	<title>NekoWatch</title>
+	<title>MangaNaija</title>
 </head>
 <style>
 #list-filter {

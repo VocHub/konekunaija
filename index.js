@@ -90,8 +90,8 @@ app.get("/anime/:title", async (req, res) => {
 			href="https://gogocdn.net/cover/dance-dance-danseur.png"
 			type="image/x-icon"
 		/>
-		<title>${data.title} | NekoWatch</title>
-		<meta property="og:title" content="${data.title} | NekoWatch" />
+		<title>${data.title} | MangaNaija</title>
+		<meta property="og:title" content="${data.title} | MangaNaija" />
 		<meta name="description" content="${data.description}" />
 		<meta property="og:description" content="${data.description}" />
 		<meta property="og:image" content="${image}" />
@@ -208,7 +208,7 @@ app.get("/view/:title", async (req, res) => {
 			type="image/x-icon"
 		/>
 		<meta property="og:title" content="${data.title}" />
-		<meta name="og:description" content="${data.title} Episode ${number} on NekoWatch." />
+		<meta name="og:description" content="${data.title} Episode ${number} on MangaNaija." />
 		<meta property="og:image" content="${image}" />
 		<meta property="twitter:title" content="${data.title}" />
 		<title>MangaNaija</title>
@@ -216,7 +216,7 @@ app.get("/view/:title", async (req, res) => {
     <body>
     <div class="header">
     <a href="../../" class="logo"
-        >NekoWatch<span style="color: green">;</span></a
+        >MangaNaija<span style="color: green">;</span></a
     >
     <div class="header-right">
 		<a style="margin: 0; padding: 6px;" id="top-search">

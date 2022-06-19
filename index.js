@@ -441,7 +441,7 @@ app.get("/genre/:genre", async (req, res) => {
 						let div = document.createElement("div");
 						div.id = "searchdiv";
 						div.innerHTML = \`
-						<button onclick="loadPage()" style="width: 100%; height: 100%;">More</button>
+						<button onclick="loadPage()" style="width: 100%; height: 100%;">Load More</button>
 						\`;
 						document.getElementById("searchres").appendChild(div);
 					})
@@ -538,7 +538,7 @@ app.get("/season", async (req, res) => {
 					let div = document.createElement("div");
 					div.id = "searchdiv";
 					div.innerHTML = \`
-					<button onclick="loadPage()" style="width: 100%; height: 100%;">More</button>
+					<button onclick="loadPage()" style="width: 100%; height: 100%;">Load More</button>
 					\`;
 					document.getElementById("searchres").appendChild(div);
 				})
@@ -672,7 +672,7 @@ app.get("/list", async (req, res) => {
 					let div = document.createElement("div");
 					div.id = "searchbuttonthing";
 					div.innerHTML = \`
-					<button onclick="loadPage()" style="width: 100%; height: 100%;">More</button>
+					<button onclick="loadPage()" style="width: 100%; height: 100%;">Load More</button>
 					\`;
 					document.getElementById("searchres").appendChild(div);
 				})

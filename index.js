@@ -87,7 +87,7 @@ app.get("/anime/:title", async (req, res) => {
 		<link rel="stylesheet" href="../../css/header.css" />
 		<link
 			rel="shortcut icon"
-			href="https://hub.koneko.link/cdn/icons/purple.png"
+			href="https://gogocdn.net/cover/dance-dance-danseur.png"
 			type="image/x-icon"
 		/>
 		<title>${data.title} | NekoWatch</title>
@@ -584,7 +584,7 @@ app.get("/list", async (req, res) => {
 <body style="width: 100%; height: 100%">
 	<div class="header">
 		<a href="/" class="logo"
-			>NekoWatch<span style="color: purple">;</span></a
+			>MangaNaija<span style="color: green">;</span></a
 		>
 		<div class="header-right">
 			<a style="margin: 0; padding: 6px;" id="top-search">
